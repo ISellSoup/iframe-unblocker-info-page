@@ -1,0 +1,21 @@
+:root {
+    text-align: center;
+    font-family: sans-serif;
+    margin-inline: 50px;
+}
+h1 {
+    font-size: 30pt;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 20pt;
+}
+button {
+    font-size: 20pt;
+    border-width: 6px;
+    border-radius: 0;
+}
+div {
+    text-align: justify;
+}

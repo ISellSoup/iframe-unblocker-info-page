@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function more() {
+                let w=open();
+                w.document.body.innerHTML='<div>'+document.querySelector('div').innerHTML+'</div>';
+                w.document.head.innerHTML='<title>Info</title><link rel="stylesheet" href="/styles.css">';
+                close();
+            }
+        </script>
+        <title>Info</title>
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body>
+        <h1>u7 coming soon</h1>
+        <button onclick="more()">Read more</button>
+        <div hidden>
+            <h1>What happened?</h1>
+            <p>I have decided to stop hosting here to encourage other people to host the unblocker themselves.</p>
+
+            <h1>Why?</h1>
+            <p>I do not feel comfortable hosting an unblocker that so many people use.  
+            Also, if one person gets their domain blocked, other people won't lose access.</p>
+
+            <h1>How do I host?</h1>
+            <p>First, find a device other than your Chromebook.  Most devices should work, but a laptop/desktop is ideal.  
+            Next go to GitHub and search for iframe unblocker.  Open the repository made by "ISellSoup" and download the code as a ZIP (Code > Download ZIP).  
+            The iframe unblocker is not a proxy, it is a static site.  Everything runs on your device.  
+            This means that you don't have to use dynamic web hosting, which ALWAYS costs money.  
+            To host the code, search for static web hosting and choose any service you want.  Ideally, you should pick a free option.  
+            On your hosting service create a new site and upload your ZIP file when prompted.</p>
+            
+            <h1>That sounds like a lot. Do I have to host to use it?</h1>
+            <p>No, web hosting is not neccesary to run the unblocker.  It will run on most online html viewers if you just copy-paste the code.  
+            You also could just rely on someone else for hosting, but I strongly recommend hosting it yourself.</p>
+
+            <h1>Why wait for u7?</h1>
+            <p>u7 (major update 7) will come with cleaner scource code and settings at the top of the html doc.</p>
+            <br>
+        </div>
+    </body>
+</html>
